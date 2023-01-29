@@ -4,6 +4,14 @@
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
 }
+.city{
+    font-weight: bold;
+}
+.navbar2:hover{ 
+    color: #fc8019;
+    border-bottom: 2px solid #fc8019;
+
+}
 
 .pad-15 {
     padding: 0 15px;
@@ -100,9 +108,9 @@
     background-color: #171a29;
 }
 .carasoul .carasoul-content {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 50px 50px;
 }
 .carasoul .carasoul-content .carasoul-inner-content {
     display: flex;
@@ -118,7 +126,9 @@
     transform: scale(1.1);
 }
 .carasoul .carasoul-content .carasoul-inner-content .carasoul-item img {
-    width: 100%;
+    width: 260px;
+    aspect-ratio: auto 260 / 260;
+    height: 260px;
 }
 /* Carasoul-section styling end */
 
